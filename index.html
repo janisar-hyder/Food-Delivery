@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Little Lemon</title>
     <meta name="Author" content="Little Lemon Restaurant">
-    <link rel="stylesheet" href="/Food-Delivery/main.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -14,65 +16,321 @@
 </head>
 
 <body>
-    <header >
-        <div class="logo" data-aos="slide-down" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src="/Food-Delivery/Asset 16@4x.png" width="30%"></div>
-        
+    <header>
+        <div class="logo" data-aos="slide-down" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"><img src="/Images/Logos/Asset 16@4x.png" width="30%"></div>
+
         <nav>
             <ul>
-                <li><a data-aos="slide-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" href="#home">Home</a></li>
-                <li><a data-aos="slide-up" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" href="#">Menu</a></li>
-                <li><a data-aos="slide-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" href="#">Book</a></li>
-                <li><a data-aos="slide-up" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" href="#">About</a></li>
+                <li><a data-aos="slide-down" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                        data-aos-mirror="true" data-aos-once="false" href="#home">Home</a></li>
+                <li><a data-aos="slide-up" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false" href="#menue">Menu</a></li>
+                <li><a data-aos="slide-down" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                        data-aos-mirror="true" data-aos-once="false" href="#booking">Book</a></li>
+                <li><a data-aos="slide-up" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false" href="#">About</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
         <section class="home" id="home">
-            <div data-aos="flip-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" class="slider-frame">
+            <div data-aos="flip-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                data-aos-once="false" class="slider-frame">
                 <h1>ORDER Now! 50% OFF</h1>
-              </div>
-            <div class="cards">
-                <div class="book book-bg1" data-aos="fade-right" data-aos-duration="1000">
-                
-                    
+            </div>
+
+
+            <div class="services">
+                <div class="sertext">
+                    <p data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                    data-aos-mirror="true" data-aos-once="false" class="t1">
+                        Services
+                    </p>
+                    <p data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                    data-aos-mirror="true" data-aos-once="false"  class="t2">
+                        Catering Services
+                    </p>
+                </div>
+                <div class="sercards">
+
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                    data-aos-mirror="true" data-aos-once="false" class="sercard">
+                        <div class="content">
+                            <div class="back">
+                                <div class="back-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                                        width="24">
+                                        <path
+                                            d="M160-80q-17 0-28.5-11.5T120-120v-200q0-33 23.5-56.5T200-400v-160q0-33 23.5-56.5T280-640h160v-58q-18-12-29-29t-11-41q0-15 6-29.5t18-26.5l56-56 56 56q12 12 18 26.5t6 29.5q0 24-11 41t-29 29v58h160q33 0 56.5 23.5T760-560v160q33 0 56.5 23.5T840-320v200q0 17-11.5 28.5T800-80H160Zm120-320h400v-160H280v160Zm-80 240h560v-160H200v160Zm80-240h400-400Zm-80 240h560-560Zm560-240H200h560Z" />
+                                    </svg>
+                                    <strong>Birthday Party</strong>
+                                </div>
+                            </div>
+                            <div class="front">
+
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                    data-aos-mirror="true" data-aos-once="false" class="sercard">
+                        <div class="content">
+                            <div class="back">
+                                <div class="back-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                                        width="24">
+                                        <path
+                                            d="M40-160v-160q0-34 23.5-57t56.5-23h131q20 0 38 10t29 27q29 39 71.5 61t90.5 22q49 0 91.5-22t70.5-61q13-17 30.5-27t36.5-10h131q34 0 57 23t23 57v160H640v-91q-35 25-75.5 38T480-200q-43 0-84-13.5T320-252v92H40Zm440-160q-38 0-72-17.5T351-386q-17-25-42.5-39.5T253-440q22-37 93-58.5T480-520q63 0 134 21.5t93 58.5q-29 0-55 14.5T609-386q-22 32-56 49t-73 17ZM160-440q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T280-560q0 50-34.5 85T160-440Zm640 0q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T920-560q0 50-34.5 85T800-440ZM480-560q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-680q0 50-34.5 85T480-560Z" />
+                                    </svg>
+                                    <strong>Business Meetings</strong>
+                                </div>
+                            </div>
+                            <div class="front">
+
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                    data-aos-mirror="true" data-aos-once="false" class="sercard">
+                        <div class="content">
+                            <div class="back">
+                                <div class="back-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                                        width="24">
+                                        <path
+                                            d="m160-120-80-80h800l-80 80H160Zm-40-120q6-18 16-34t24-30v-296h-40v-60h40v-30h-40v-60h40v-30h-40v-60h280q33 0 56.5 23.5T480-760v10h360v60H480v10q0 33-23.5 56.5T400-600h-80v244q14 2 28 6t26 12q26-65 83-103.5T583-480q90 0 153.5 61.5T800-268v28H120Zm334-80h252q-17-36-50-58t-73-22q-42 0-77 21t-52 59ZM320-750h80v-30h-80v30Zm0 90h80v-30h-80v30Zm-100-90h40v-30h-40v30Zm0 90h40v-30h-40v30Zm0 314q10-5 19.5-7.5T260-358v-242h-40v254Zm360 26Z" />
+                                    </svg>
+                                    <strong>Wedding Party</strong>
+                                </div>
+                            </div>
+                            <div class="front">
+
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="menue" id="menue">
+
+        <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-once="false"  class="services">
+            <div class="sertext">
+                <p class="t1">
+                    Specialities
+                </p>
+                <p class="t2">
+                    Our Menu
+                </p>
+            </div>
+        </div>
+
+        <div class="menuecards">
+
+            <div class="cards1">
+                <div class="book book-bg1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
                     <div class="cover">
                         <p>BURGERS</p>
                     </div>
-                   </div>
+                </div>
 
 
-                   <div class="book book-bg2"  data-aos="fade-up" data-aos-duration="1000">
+                <div class="book book-bg2" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
                     <div class="cover">
                         <p>PIZZA</p>
                     </div>
-                   </div>
+                </div>
 
 
-                   <div class="book book-bg3"  data-aos="fade-left" data-aos-duration="1000">
+                <div class="book book-bg3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
                     <div class="cover">
                         <p>FRIES</p>
                     </div>
-                   </div>
+                </div>
+
+                <div class="book book-bg4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>BBQ</p>
+                    </div>
+                </div>
+            </div>
+            <!-- line2 -->
+            <div class="cards">
+                <div class="book book-bg1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>BURGERS</p>
+                    </div>
+                </div>
+
+
+                <div class="book book-bg2" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>PIZZA</p>
+                    </div>
+                </div>
+
+
+                <div class="book book-bg3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>FRIES</p>
+                    </div>
+                </div>
+
+                <div class="book book-bg4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>BBQ</p>
+                    </div>
+                </div>
             </div>
 
-            
+            <!-- line2 -->
+            <div class="cards">
+                <div class="book book-bg1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>BURGERS</p>
+                    </div>
+                </div>
 
-        </section>
-    </main>
+
+                <div class="book book-bg2" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>PIZZA</p>
+                    </div>
+                </div>
+
+
+                <div class="book book-bg3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>FRIES</p>
+                    </div>
+                </div>
+
+                <div class="book book-bg4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false"> 
+                    <div class="cover">
+                        <p>BBQ</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="booking" id="booking">
+
+            <div data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out"
+            data-aos-mirror="true" data-aos-once="false" class="booktext">
+                <p class="b1">
+                    Specialities
+                </p>
+                <p class="b2">
+                    Our Menu
+                </p>
+            </div>
+
+            <div class="bookform">
+                <div data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                data-aos-mirror="true" data-aos-once="false" class="form-container">
+                    <form class="form">
+                      <div class="form-group">
+
+                        <label for="name">Name</label>
+                        <input required="" name="Name" id="Name" type="text">
+
+                        <label for="email">Your Email</label>
+                        <input required="" name="email" id="email" type="text">
+
+                        <label for="name">Number of Tables</label>
+                        <input required="" name="Tables" id="Tables" type="number">
+                        
+
+                      </div>
+                      <div class="form-group">
+                        <label for="textarea">Any other Services</label>
+                        <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+                      </div>
+                      <button type="submit" class="form-submit-btn">Book Now!</button>
+                    </form>
+                  </div>
+            </div>
+       
+
+       
+
+    </section>
+
+
+
+
+
+
+
+
 
     <footer data-aos="zoom-in">
-       
-            <img data-aos="fade-right" data-aos-duration="1000" src="/Food-Delivery/Asset 20@4x.png">
-        
+
+        <img data-aos="fade-right" data-aos-duration="1000" src="/Images/Logos/Asset 20@4x.png">
+
         <div class="text">
             <p> &copy Little Lemon</p>
         </div>
     </footer>
-    
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
+
 </html>
